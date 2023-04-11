@@ -5,3 +5,5 @@ services:
       dockerfile: ./Dockerfile
     image: nodejs_app:latest
     container_name: nodejs_app
+    ports:
+      - 8080:3000
